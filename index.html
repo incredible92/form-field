@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lab-exercise</title>
+  </head>
+  <body>
+    <div class="formWrap">
+      <div class="form-box">
+        <h2 class="codeNum">SSK3408 SYSTEM</h2>
+        <form class="formField">
+          <p>
+            StudentID:
+            <label class="field"
+              ><input type="text" name="studenID" size="15"
+            /></label>
+          </p>
+          <p>
+            Name:
+            <label class="field1">
+              <input type="text" name="name" size="55"
+            /></label>
+          </p>
+          <p>
+            Gender:
+            <label class="field2">
+              <input type="radio" name="gender"  /> Male</label
+            >
+            <label class="field2">
+              <input type="radio" name="gender" /> Female</label
+            >
+          </p>
+
+          <div class="checkWrap">
+            <p>Skills:</p>
+            <div class="checkbox">
+              <span class="lang"> <input
+                type="checkbox"
+                name="c++"
+                value="itunes"
+                checked="checked"
+              />
+              C++</span>
+            <span class="lang">  <input type="checkbox" name="java" value="lastfm" /> Java</span>
+             <span class="lang"> <input type="checkbox" name="python" value="lastfm" /> Python</span>
+            </div>
+          </div>
+          <p>
+            <label for="hear-about" class="major">
+              Major:
+            </label>
+            <select name="referrer" id="major">
+              <option value="software">Software Engineering</option>
+              <option value="mobile">Mobile Engineering</option>
+              <option value="product">Product Designing</option>
+              <option value="ui/us">UI/UX Designing</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+     <div class="buttons">
+       <button>Reset</button>
+       <button>Submit</button>
+       <button>Back</button>
+     </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="/Js/script.js"></script>
+  </body>
+</html>
